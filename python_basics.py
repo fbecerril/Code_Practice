@@ -40,5 +40,12 @@ print(x); print(y); print(z) #we can also have multiple prints in one line
 x = "awesome"
 print("python is " + x)
 
-
+#python numbers
+x = 1 #int
+y = 2.5 #float
+z = 1j #complex
+print("Python has different numbers...")
+print(x, " is an integer number")
+print(y, " is a float number")
+print(z, " is a complex number")
 
