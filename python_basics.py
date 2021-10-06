@@ -49,3 +49,46 @@ print(x, " is an integer number")
 print(y, " is a float number")
 print(z, " is a complex number")
 
+#multiline string using three quotes or three single quotes
+a = """Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua."""
+print(a)
+
+#strings are Arrays
+a = "Hello, World!"
+print(a[5]) #print that character
+print(len(a)) #print string length using len()
+print("Hello" in a) #check if "Hello" is present
+if "Hello" in a: #check IF
+    print("Hello is present in the string.")
+if "Bye" not in a: #check IF NOT
+    print("Bye is not present in the string")   
+ 
+
+#we can also loop through the String
+for x in "Banana":
+    print(x)
+
+#Slicing
+#return a range of characters from a string using slice syntax
+b = "Hello, World!"
+print("b = " + b)
+print("b[2:5] = " + b[2:5])
+print("b[:5] = " + b[:5]) #slice from beginning
+print("b[2:] = " + b[2:]) #slice to the end
+print("b[-5:-2] = " + b[-5:-2]) # negative indexing from -5 from the end 'o' to -2 from the end 'd'
+
+print("Using uppercase method: " + b.upper())   #using uppercase method
+print("Using lowercase method: " + b.lower())   #using lowercase method
+b = "    Hello, World!   "
+print("Removing whitespace: " + b.strip())      #removing whitespace
+print("Using replace method: " + b.replace("H", "J"))   #using replace method
+b = "Hello, World!"
+print("Using split method: " , b.split(","))    #using split method
+
+#Format String
+
+
+
