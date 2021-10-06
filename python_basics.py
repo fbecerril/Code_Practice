@@ -84,11 +84,31 @@ print("Using uppercase method: " + b.upper())   #using uppercase method
 print("Using lowercase method: " + b.lower())   #using lowercase method
 b = "    Hello, World!   "
 print("Removing whitespace: " + b.strip())      #removing whitespace
+b= "Hello, World!"
 print("Using replace method: " + b.replace("H", "J"))   #using replace method
 b = "Hello, World!"
 print("Using split method: " , b.split(","))    #using split method
 
 #Format String
+age = 36
+txt = "My name is John, and I am {}"
+print("\nage = " , age)
+print("txt = " + txt)
+print("txt.format(age) = ", txt.format(age))
 
+#unlimited numbers can be formated
+quantity = 3
+itemno = 567
+price = 49.95
+myorder = "I want {} pieces of item {} for {} dollars."
+
+print("quantity = 3 itemno = 567 price = 49.95")
+print('myorder = "I want {} pieces of item {} for {} dollars."')
+print("myorder.format(quantity, itemno, price) = ", myorder.format(quantity, itemno, price))
+
+#we can also place index numbers
+print("\nWe can also use index numbers!")
+myorder = "I want to pay {2} dollars for {0} pieces of item {1}"
+print('myorder = "I want to pay {2} dollars for {0} pieces of item {1}"', myorder.format(quantity, itemno, price))
 
 
