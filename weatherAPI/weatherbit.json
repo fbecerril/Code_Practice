@@ -1,0 +1,47 @@
+{
+    "data": [
+        {
+            "rh": 89,
+            "pod": "n",
+            "lon": -121.4944,
+            "pres": 1018.2,
+            "timezone": "America/Los_Angeles",
+            "ob_time": "2021-10-21 08:31",
+            "country_code": "US",
+            "clouds": 100,
+            "ts": 1634805060,
+            "solar_rad": 0,
+            "state_code": "CA",
+            "city_name": "Sacramento",
+            "wind_spd": 2.57,
+            "wind_cdir_full": "north",
+            "wind_cdir": "N",
+            "slp": 1019.2,
+            "vis": 5,
+            "h_angle": -90,
+            "sunset": "01:19",
+            "dni": 0,
+            "dewpt": 13.2,
+            "snow": 0,
+            "uv": 0,
+            "precip": 0,
+            "wind_dir": 355,
+            "sunrise": "14:21",
+            "ghi": 0,
+            "dhi": 0,
+            "aqi": 37,
+            "lat": 38.58157,
+            "weather": {
+                "icon": "c02n",
+                "code": 801,
+                "description": "Few clouds"
+            },
+            "datetime": "2021-10-21:08",
+            "temp": 15,
+            "station": "D9558",
+            "elev_angle": -62.3,
+            "app_temp": 15
+        }
+    ],
+    "count": 1
+}
